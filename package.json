@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "style:fix": "prettier --write '**/*.{js,ts,yaml,json,md}' && eslint --fix . --max-warnings=0"
+    "prettier": "prettier --write '**/*.{js,ts,yaml,json,md}'",
+    "eslint": "eslint . --max-warnings=0"
   },
   "author": "",
   "license": "ISC",
